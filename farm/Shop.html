@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css\Shop.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+
+
+</head>
+<body>
+    
+    <div class="container" id="header">
+        <div class="row">
+          <div class="col-12 d-flex justify-content-between align-items-center header-area" >
+            <p id="para">Welcome to <span>Farmie</span>, we hope you will enjoy our products and have a good experience</p>
+          
+            <div id="header-meta">
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="infodeercreative@gmail.com" id="meta">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Email: <span class="__cf_email__" data-cfemail="1b72757d747f7e7e6978697e7a6f726d7e5b7c767a727735787476">infodeercreative@gmail.com</span></span>
+              </a>
+              
+              <a href="#" data-toggle="tooltip" data-placement="bottom" title="+1 234 122 122" id="meta" >
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>Call Us: +84 223 9000</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <nav class="navbar sticky-top  navbar-expand-lg navbar-light bg-light">
+        <div class="container" id="nav-container">
+          <a class="navbar-brand" href="#">
+            <img src="images\logo.png.webp" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT</a>
+              </li>
+      
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PAGES
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="index.html">Home</a></li>
+                  <li><a class="dropdown-item" href="about.html">About</a></li>
+                  <li><a class="dropdown-item" href="farmingpractise.html">Farming Practise</a></li>
+                  <li><a class="dropdown-item" href="Shop.html">Shop</a></li>
+                  <li><a class="dropdown-item" href="News.html">News</a></li>
+                  <li><a class="dropdown-item" href="News-details.html">News details</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ourproduct.html" tabindex="-1" aria-disabled="true">OUR PRODUCT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="farmingpractise.html" tabindex="-1" aria-disabled="true">FARMING PRACTISE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="News.html" tabindex="-1" aria-disabled="true">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="true">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a href="#">  <i class="fa-solid fa-magnifying-glass" id="mag"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#">  <i class="fa-solid fa-cart-shopping" id="mag"><span class="badge ">2</span></i></a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+      <div class="container" id="about-container">
+        <div class="row">
+            <div class="col-12 background-container"  style="background-image: url('images/18.jpg.webp');">
+                <h2><b>Shop</b></h2>
+            </div>
+        </div>
+           </div>
+
+
+           <div class="container" id="breadcrumb-container">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html" class="underline"><i class="fa-solid fa-house"></i> Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+              </nav>
+        </div>
+
+
+        
+            <div class="container" id="result">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between align-items-center">
+                        <h6 id="mode-heading"><b>Showing 1-9 of 72 results</b></h6>
+                        <div id="mode">
+                            <a href="#"><i class="fa fa-th"></i></a>
+                            <a href="#"><i class="fa fa-list-ul"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3" id="shopping">
+                        <h5 id="">Shopping cart</h5>
+                        <div class="cart-table">
+                            <table class="table table-responsive">
+                                <tr>
+                                    <td><a><img src="images\34.jpg.webp" alt="" width="80%"></a></td>
+                                    <td ><p class="d-flex">Bayonne Ham</p>
+                                    <h6 style="font-size: 18px;"><b>1 x $39.99</b></h6>
+
+                                    </td>
+                                    <td>
+                                        <a href="#" id="anchor"><i class="fa-solid fa-xmark"  ></i></a>
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                  <td><a><img src="images\35.jpg.webp" alt="" width="80%"></a></td>
+                                    <td ><p class="d-flex">Bayonne Ham</p>
+                                    <h6 style="font-size: 18px;"><b>1 x $39.99</b></h6>
+
+                                    </td>
+                                    <td>
+                                        <a href="#" id="anchor"><i class="fa-solid fa-xmark"  ></i></a>
+                                    </td>
+                                                                    
+                                </tr>
+                                <tr>
+                                  <td><a><img src="images\36.jpg.webp" alt="" width="80%"></a></td>
+                                    <td ><p class="d-flex">Bayonne Ham</p>
+                                    <h6 style="font-size: 18px;"><b>1 x $39.99</b></h6>
+
+                                    </td>
+                                    <td>
+                                        <a href="#" id="anchor"><i class="fa-solid fa-xmark"  ></i></a>
+                                    </td>
+                                  
+
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="cart-summary d-flex" >
+                          <div><h6 style="color: #b7b7b7; top: -50px;">SUBTOTAL</h6></div>
+                          <div ><h6 style="padding-left: 170px; font-weight: 700; "> $52.99</h6></div>
+                          
+                        </div>
+                      <a><button class="w-100" id="check"><b>CHECK OUT</b> </button></a> 
+                    
+
+                      <div class="categories">
+                        <div class="cat-title">
+                          <h5> Catagories</h5>
+                           <ul>
+                            <li> <a href="#">All products (72)</a></li>
+                            <li><a href="#">Freshy Fruits (20)</a> </li>
+                            <li><a href="#">Rice & Corn (15)</a></li>
+                            <li><a href="#">Meat & Eggs (20)</a></li>
+                            <li><a href="#">Milk & Cheese (15)</a>  </li>
+                            <li><a href="#">Others (2)</a></li>
+
+                           </ul>
+
+                        </div>
+                      </div>
+            
+
+                      <div class="sort">
+                        <div class="sort-title">
+                       <h5>Sort by</h5>    
+                        <ul>
+                          <li><a href="">Top rated</a></li>
+                          <li><a href="">New arrivals</a></li>
+                          <li><a href="">Alphabetically,A-Z</a></li>
+                          <li><a href="">Alphabetically,Z-A</a></li>
+                          <li><a href="">Price: low to high</a></li>
+                          <li><a href="">Price: high to low</a></li>
+                        </ul>
+                      </div>
+                      </div>
+                        
+
+                      <div class="price">
+                        <div class="price-title">
+                          <h5>Price</h5>
+                          <ul>
+                            <li><a href="">$0.00 - $10.00</a></li>
+                            <li><a href="">$10.00 - $50.00</a></li>
+                            <li><a href="">$50.00-$100.00</a></li>
+                            <li><a href="">$100.00+</a></li>
+                            
+                          </ul>
+
+                        </div>
+                      </div>
+
+
+                      <div class="Tags">
+                        
+                          <h5>Tags</h5>
+                          <ul class="d-flex flex-wrap " >
+                            <li ><a href="">All product</a></li>
+                            <li><a href="">Freshy Fruit</a></li>
+                            <li><a href="">Sweet Corn</a></li>
+                            <li><a href="">Chicken</a></li>
+                            <li><a href="">Organic</a></li>
+                            <li><a href="">Meat</a></li>
+                          </ul>
+
+
+                       
+                      </div>
+
+
+                    </div>
+                    <div class="col-12 col-md-8 col-lg-9">
+                      <div class="row" id="feat">
+                        <div class="col-12 col-sm-6 col-lg-4" id="feat-col">
+                          <div class="single-product-area mb-50 wow fadeInUp" data-wow-delay="100ms">
+                            <div class="product-thumbnail">
+                              <img src="images\p1.jpg.webp" alt="">
+                              
+                              <span class="product-tag">HOT</span>
+                              <div class="product-meta-data">
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                                </div>
+  
+                            </div>
+                            <div class="product-desc text-center">
+                              <a href="" class="product-title">Strawberry</a>
+                              <h6 class="product-price">$17.99</h6>
+                            </div>
+                          </div>
+                        
+                        </div>
+                        
+
+
+                        <div class="col-12 col-sm-6 col-lg-4" >
+                          <div class="single-product-area mb-50">
+                            <div class="product-thumbnail">
+                              <img src="images\p2.jpg.webp" alt="">
+                              
+                              
+                              <div class="product-meta-data">
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                                
+                                </div>
+  
+                            </div>
+                            <div class="product-desc text-center">
+                              <a href="" class="product-title">Baked Bread</a>
+                              <h6 class="product-price">$17.99</h6>
+                            </div>
+                          </div>
+
+
+
+                          
+                        
+                        </div>  
+
+                        <div class="col-12 col-sm-6 col-lg-4">
+                          <div class="single-product-area mb-50">
+                            <div class="product-thumbnail">
+                              <img src="images\p3.jpg.webp" alt="">
+                              
+                              
+                              <div class="product-meta-data">
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>                          
+                                </div>
+  
+                            </div>
+                            <div class="product-desc text-center">
+                              <a href="" class="product-title">Prime Beef</a>
+                              <h6 class="product-price">$17.99</h6>
+                            </div>
+                          </div>  
+
+                      </div>
+
+
+                      <div class="col-12 col-sm-6 col-lg-4" id="feat-col">
+                        <div class="single-product-area mb-50">
+                          <div class="product-thumbnail">
+                            <img src="images\p4.jpg.webp" alt="">
+                            
+                            <span class="product-tag-honey">SALE</span>
+                            <div class="product-meta-data">
+                              <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                              </div>
+
+                          </div>
+                          <div class="product-desc text-center">
+                            <a href="" class="product-title">Honey</a>
+                            <h6 class="product-price">$17.99</h6>
+                          </div>
+                        </div>  
+
+                    </div>
+
+
+                    <div class="col-12 col-sm-6 col-lg-4">
+                      <div class="single-product-area mb-50">
+                        <div class="product-thumbnail">
+                          <img src="images\p5.jpg.webp" alt="">
+                          
+                        
+                          <div class="product-meta-data">
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                            </div>
+
+                        </div>
+                        <div class="product-desc text-center">
+                          <a href="" class="product-title">Honey</a>
+                          <h6 class="product-price">$17.99</h6>
+                        </div>
+                      </div>  
+
+                  </div>
+
+
+
+
+
+                  <div class="col-12 col-sm-6 col-lg-4">
+                    <div class="single-product-area mb-50">
+                      <div class="product-thumbnail">
+                        <img src="images\p6.jpg.webp" alt="">
+                        
+                        
+                        <div class="product-meta-data">
+                          <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                          <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                          <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                          </div>
+
+                      </div>
+                      <div class="product-desc text-center">
+                        <a href="" class="product-title">Honey</a>
+                        <h6 class="product-price">$17.99</h6>
+                      </div>
+                    </div>  
+
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-4"id="feat-col">
+                  <div class="single-product-area mb-50">
+                    <div class="product-thumbnail">
+                      <img src="images\p7.jpg.webp" alt="">
+                      
+                      
+                      <div class="product-meta-data">
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                        </div>
+
+                    </div>
+                    <div class="product-desc text-center">
+                      <a href="" class="product-title">Honey</a>
+                      <h6 class="product-price">$17.99</h6>
+                    </div>
+                  </div>  
+
+              </div>
+
+
+
+              <div class="col-12 col-sm-6 col-lg-4">
+                <div class="single-product-area mb-50">
+                  <div class="product-thumbnail">
+                    <img src="images\p8.jpg.webp" alt="">
+                    
+                    <span class="product-tag">HOT</span>
+                    <div class="product-meta-data">
+                      <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                      <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                      </div>
+
+                  </div>
+                  <div class="product-desc text-center">
+                    <a href="" class="product-title">Honey</a>
+                    <h6 class="product-price">$17.99</h6>
+                  </div>
+                </div>  
+
+            </div>
+
+
+
+
+            <div class="col-12 col-sm-6 col-lg-4">
+              <div class="single-product-area mb-50">
+                <div class="product-thumbnail">
+                  <img src="images\p9.jpg.webp" alt="">
+                  
+                
+                  <div class="product-meta-data">
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                    </div>
+
+                </div>
+                <div class="product-desc text-center">
+                  <a href="" class="product-title">Honey</a>
+                  <h6 class="product-price">$17.99</h6>
+                </div>
+              </div>  
+
+          </div>
+
+
+
+
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="single-product-area mb-50">
+              <div class="product-thumbnail">
+                <img src="images\p10.jpg.webp" alt="">
+                
+               
+                <div class="product-meta-data">
+                  <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                  </div>
+
+              </div>
+              <div class="product-desc text-center">
+                <a href="" class="product-title">Honey</a>
+                <h6 class="product-price">$17.99</h6>
+              </div>
+            </div>  
+
+        </div>
+
+
+
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="single-product-area mb-50">
+            <div class="product-thumbnail">
+              <img src="images\p11.jpg.webp" alt="">
+              
+              
+              <div class="product-meta-data">
+                <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+                </div>
+
+            </div>
+            <div class="product-desc text-center">
+              <a href="" class="product-title">Honey</a>
+              <h6 class="product-price">$17.99</h6>
+            </div>
+          </div>  
+
+      </div>
+
+
+
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="single-product-area mb-50">
+          <div class="product-thumbnail">
+            <img src="images\p12.jpg.webp" alt="">
+            
+            <span class="product-tag-honey">SALE</span>
+            <div class="product-meta-data">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Favourite"><i class="fa-regular fa-heart"></i></a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+              <a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Add To Cart"><i class="fa-solid fa-arrows-left-right"></i></a>
+              </div>
+
+          </div>
+          <div class="product-desc text-center">
+            <a href="" class="product-title">Honey</a>
+            <h6 class="product-price">$17.99</h6>
+          </div>
+        </div>  
+
+    </div>
+
+
+
+
+
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination  pagination-lg justify-content-center">
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                          </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        
+                        <li class="page-item">
+                          <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+            </div>
+
+  
+
+            <footer class="footer-area" >
+              <div class="main-footer section-padding-100" style="position: relative; background-image: url('images/3.jpg.webp'); width: 100%;">
+                  <div class="container" id="footer-container">
+                      <div class="row">
+                          <div class="col-12 col-sm-6 col-lg-3">
+                              <div class="footer-widget">
+                                  <a href="#"><img src="images\logo2.png.webp" alt=""></a>
+                                  <p>Lorem ipsum dolor sit amet, consecte stare adipiscing elit. In act honcus risus atiner Pellentesque risus.</p>
+                                  <div class="contact-info">
+                                      <p><i class="fa-solid fa-map-pin"></i><span>120 Raymond Rd, New York</span></p>
+                                      <p><i class="fa-solid fa-envelope"></i><span>info.deercreative@gmail.com</span></p>
+                                      <p><i class="fa-solid fa-phone"></i><span>+84 223 9000</span></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-3">
+                              <div class="footer-widget" id="player">
+                                  <h5 class="widget-title">QUICK LINK</h5>
+                                  <nav class="footer-widget-nav" style="display: block;">
+                                      <ul>
+                                          <li><a href="#">Purchase</a></li>
+                                          <li><a href="#">Policities</a></li>
+                                          <li><a href="#">Shipping</a></li>
+                                          <li><a href="#">FAQs</a></li>
+                                          <li><a href="#">Return</a></li>
+                                          <li><a href="#">Careers</a></li>
+                                          <li><a href="#">Payments</a></li>
+                                          <li><a href="#">Partners</a></li>
+                                          <li><a href="#">Guide</a></li>
+                                          <li><a href="#">Standard</a></li>
+                                          <li><a href="#">News</a></li>
+                                          <li><a href="#">Brands</a></li>
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-3">
+                              <div class="footer-widget ">
+                                  <h5 class="widget-title">RECENT NEWS</h5>
+                                  <div class="single-recent-blog d-flex align-items-center">
+                                      <div class="post-thumbnail">
+                                          <img src="images/4.jpg.webp" alt="">
+                                      </div>
+                                      <div class="footer-content">
+                                          <a href="#" class="post-title">WA’s largest farming business on the market  </a>
+                                          <div class="post-date">18 Aug 2018</div>
+                                      </div>
+                                  </div>
+                                  <div class="single-recent-blog d-flex align-items-center">
+                                      <div class="post-thumbnail">
+                                          <img src="images/5.jpg.webp" alt="">
+                                      </div>
+                                      <div class="footer-content">
+                                          <a href="#" class="post-title">Beef retail prices hit a record</a>
+                                          <div class="post-date">18 Aug 2018</div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-sm-6 col-lg-3">
+                              <div class="footer-widget">
+                                  <h5 class="widget-title">STAY CONNECTED</h5>
+                                  <div class="social-info">
+                                      <a href="#"><span>Facebook</span><i class="fa-brands fa-facebook-f"></i></a>
+                                      <a href="#"><span>Twitter</span><i class="fa-brands fa-twitter"></i></a>
+                                      <a href="#"><span>Pinterest</span><i class="fa-brands fa-pinterest"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+              <div class="copywrite-area">
+                  <div class="container">
+                      <div class="copywrite-text">
+                          <div class="row align-items-center">
+                              <div class="col-md-6">
+                                  <p id="footer-para">
+                                      Copyright ©2024 All rights reserved | This template is made with <i class="fa-regular fa-heart"></i> by 
+                                      <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                  </p>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="footer-nav">
+                                      <nav>
+                                          <ul>
+                                              <li><a href="#">About</a></li>
+                                              <li><a href="#">Produce</a></li>
+                                              <li><a href="#">Practice</a></li>
+                                              <li><a href="#">Products</a></li>
+                                              <li><a href="#">News</a></li>
+                                              <li><a href="#">Contact</a></li>
+                                          </ul>
+                                      </nav>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+        !
+          
+          
+          
+          
+          
+          
+          
+          
+          
+            
+
+
+        
+
+</body>
+</html>
